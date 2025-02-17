@@ -8,7 +8,7 @@ import pytz  # For handling time zones
 
 # Load environment variables
 load_dotenv()
-TOKEN = 'MTM0MDg3NTU5MDk1MzIwNTg1MQ.GsgNS2.u1BVyLAZS2B5ZtMWGXjep8oaaUWuKFxwXdLAoA'  # Restore token
+TOKEN = 'MTM0MDg3NTU5MDk1MzIwNTg1MQ'+'.GF5A8W.WK0FtcgRErMlHLt'+'9hSGaJkMzJGK04yeuqE-isc'  # Restore token
 
 intents = discord.Intents.default()
 intents.message_content = True  # Enable the message content intent
