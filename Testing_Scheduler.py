@@ -157,7 +157,7 @@ async def cancel_test(ctx):
             return
 
     await ctx.send(f"{ctx.author.mention}, you don't have an active test request.")
-
+'''
 @bot.event
 async def on_message(message):
     if message.author == bot.user:
@@ -168,6 +168,6 @@ async def on_message(message):
 
     # This line is crucial to allow commands to work
     await bot.process_commands(message)
-
+'''
 # Run the bot
 bot.run(TOKEN)
